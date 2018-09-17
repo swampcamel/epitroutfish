@@ -161,7 +161,13 @@
 
 
 @media screen and (max-width: 1400px) {
-  .grid-container .other-options .opt1 h5 {
+  .grid-container .other-options .opt1  {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h5 {
     font-size: 14px;
   }
   .content {
@@ -177,6 +183,9 @@
     font-size: 12px;
   }
   .grid-container .current-course {
+    .info {
+      width: 100%;
+    }
      h4 {
     font-size: 16px;
     }

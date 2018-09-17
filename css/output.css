@@ -123,7 +123,12 @@
       font-size: 2.5em; }
 
 @media screen and (max-width: 1400px) {
-  .grid-container .other-options .opt1 h5 {
+  .grid-container .other-options .opt1 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
+
+  h5 {
     font-size: 14px; }
 
   .content {
@@ -137,6 +142,8 @@
   .opt1 p {
     font-size: 12px; }
 
+  .grid-container .current-course .info {
+    width: 100%; }
   .grid-container .current-course h4 {
     font-size: 16px; }
   .grid-container .current-course .video {
